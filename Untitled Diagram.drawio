@@ -1,1 +1,178 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T08:13:06.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" version="13.10.3" etag="eCSxAH-RT6VLLKhMZhnH" type="github"><diagram id="NX9DWhBfDyaRGIyjjMjA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-30T06:10:12.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="OiQuDBv_2QKZYEb9zm2A" version="13.10.3" type="github">
+  <diagram id="NX9DWhBfDyaRGIyjjMjA" name="Page-1">
+    <mxGraphModel dx="818" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uk9vNTl8983ohQFPO6-9-1" value="用户&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="10" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-3" value="CDN" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="100" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="uk9vNTl8983ohQFPO6-9-3">
+          <mxGeometry x="45" y="60" width="10" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-18" value="ajax请求到达网关" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="uk9vNTl8983ohQFPO6-9-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="190" as="sourcePoint" />
+            <mxPoint x="170" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-32" value="ajax请求" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.3;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="uk9vNTl8983ohQFPO6-9-3" target="uk9vNTl8983ohQFPO6-9-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="370" as="sourcePoint" />
+            <mxPoint x="160" y="369" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-37" value="ajax请求" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="uk9vNTl8983ohQFPO6-9-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="520" as="sourcePoint" />
+            <mxPoint x="160" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-45" value="请求返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="uk9vNTl8983ohQFPO6-9-3" target="uk9vNTl8983ohQFPO6-9-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="580" as="sourcePoint" />
+            <mxPoint x="90" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-4" value="NODEJS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="100" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="uk9vNTl8983ohQFPO6-9-4">
+          <mxGeometry x="45" y="60" width="10" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-20" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="uk9vNTl8983ohQFPO6-9-4" target="uk9vNTl8983ohQFPO6-9-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="200" as="sourcePoint" />
+            <mxPoint x="160" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-22" value="返回有效的token信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="uk9vNTl8983ohQFPO6-9-4" target="uk9vNTl8983ohQFPO6-9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="230" as="sourcePoint" />
+            <mxPoint x="90" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-24" value="创建session并且查询岗位相关信息" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="uk9vNTl8983ohQFPO6-9-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="260" as="sourcePoint" />
+            <mxPoint x="300" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-43" value="通过验证，ajax请求进入到应用后台" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="uk9vNTl8983ohQFPO6-9-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="540" as="sourcePoint" />
+            <mxPoint x="430" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-5" value="LDAP AUTH SER" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="110" width="100" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="uk9vNTl8983ohQFPO6-9-5">
+          <mxGeometry x="45" y="60" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-26" value="如果是多岗位用户返回岗位信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="uk9vNTl8983ohQFPO6-9-5" target="uk9vNTl8983ohQFPO6-9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="290" as="sourcePoint" />
+            <mxPoint x="90" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-6" value="DMAP AGENT" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="110" width="100" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="uk9vNTl8983ohQFPO6-9-6">
+          <mxGeometry x="45" y="60" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-7" value="CMAP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="110" width="100" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="uk9vNTl8983ohQFPO6-9-7">
+          <mxGeometry x="45" y="60" width="10" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-11" value="用户点击APP" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="70" y="200" as="sourcePoint" />
+            <mxPoint x="180" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-14" value="返回H5页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.303;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uk9vNTl8983ohQFPO6-9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="257" as="sourcePoint" />
+            <mxPoint x="80" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-15" value="ajax请求" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.028;exitY=0.216;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uk9vNTl8983ohQFPO6-9-2" target="uk9vNTl8983ohQFPO6-9-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="80" y="300" as="sourcePoint" />
+            <mxPoint x="150" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-16" value="用户点击页面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="270" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-19" value="未找到对应的session信息，&lt;br&gt;则去auth server验证token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-31" value="选岗" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.234;exitY=0.467;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uk9vNTl8983ohQFPO6-9-2" target="uk9vNTl8983ohQFPO6-9-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="80" y="450" as="sourcePoint" />
+            <mxPoint x="150" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-35" value="选岗成功信息返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.234;entryY=0.618;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uk9vNTl8983ohQFPO6-9-3" target="uk9vNTl8983ohQFPO6-9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="540" as="sourcePoint" />
+            <mxPoint x="80" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-36" value="用户点击具体页面" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.959;exitY=0.718;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uk9vNTl8983ohQFPO6-9-2" target="uk9vNTl8983ohQFPO6-9-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="80" y="599" as="sourcePoint" />
+            <mxPoint x="160" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-44" value="应用结果以RESTFUL风格返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="uk9vNTl8983ohQFPO6-9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="680" as="sourcePoint" />
+            <mxPoint x="620" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-46" value="请求返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.89;entryY=0.918;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uk9vNTl8983ohQFPO6-9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180.32999999999998" y="720" as="sourcePoint" />
+            <mxPoint x="80" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-49" value="" style="endArrow=none;dashed=1;html=1;entryX=0.476;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uk9vNTl8983ohQFPO6-9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="830" as="sourcePoint" />
+            <mxPoint x="110" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-30" value="如果是多岗位，提示需要选岗" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uk9vNTl8983ohQFPO6-9-4" target="uk9vNTl8983ohQFPO6-9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="420" as="sourcePoint" />
+            <mxPoint x="80" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uk9vNTl8983ohQFPO6-9-33" value="选岗成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="uk9vNTl8983ohQFPO6-9-4" target="uk9vNTl8983ohQFPO6-9-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="520" as="sourcePoint" />
+            <mxPoint x="220" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
